@@ -1,29 +1,11 @@
 # RFP Management System v1.0
 
-## Overview
-The RFP Management System is a web-based application developed by Velocity Software Solutions Pvt. Ltd. It provides a platform for government agencies and private companies to issue requests for proposals (RFPs) and allows vendors to submit quotes in response to these RFPs. The system helps streamline the RFP process, ensuring full and open competition while facilitating communication between companies and vendors.
-
-## Features
-- User authentication: Allows users to log in with their email and password or google.
-- Admin panel: Provides administrators with the ability to issue RFPs, manage categories, approve vendors, and view quotes submitted by vendors.
-- Vendor panel: Allows registered vendors to view open RFPs, submit quotes, and view their submitted quotes and edit their details.
-- Registration process: Includes separate registration flows for admins and vendors, with email confirmation for vendor registration.
-- Forgot password functionality: Allows users to reset their password via email.
-
-# README
-
-## RFP Management System
-
 ### Table of Contents
 
 - [RFP Management System v1.0](#rfp-management-system-v10)
-  - [Overview](#overview)
-  - [Features](#features)
-- [README](#readme)
-  - [RFP Management System](#rfp-management-system)
     - [Table of Contents](#table-of-contents)
-    - [Overview](#overview-1)
-    - [Features](#features-1)
+    - [Overview](#overview)
+    - [Features](#features)
     - [Installation](#installation)
     - [Usage](#usage)
       - [Login](#login)
@@ -34,6 +16,7 @@ The RFP Management System is a web-based application developed by Velocity Softw
       - [Admin Panel](#admin-panel)
       - [Vendor Panel](#vendor-panel)
     - [Email Notifications](#email-notifications)
+    - [Improvements](#improvements)
     - [Contact](#contact)
 
 ### Overview
@@ -54,8 +37,8 @@ The RFP (Request for Proposal) Management System is designed to facilitate the i
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-repository/rfp-management-system.git
-    cd rfp-management-system
+    git clone https://github.com/saurabhgithb/RFP-System
+    cd RFP-System
     ```
 
 2. **Install dependencies**:
@@ -145,6 +128,12 @@ The system sends automated emails for various actions:
 - **Vendor Approval**: Email notification when the vendor's account is approved.
 - **RFP Creation**: Email to vendors when a new RFP is issued.
 - **Quote Submission**: Email to admin when a vendor submits a quote.
+
+### Improvements
+
+- Directory structure could be improved.
+- Url could be more structured.
+- Admin pages can reside in admin folder and vendor pages can reside in vendor folder and auth pages in auth folder.
 
 ### Contact
 
